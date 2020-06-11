@@ -10,8 +10,4 @@
   {
   die("Error connection: ".sqlsrv_errors());
   }
-  $tsql= "SELECT * FROM [dbo].[restaurant]";
-  $getResults= sqlsrv_query($conn, $tsql);
-  if ($getResults == FALSE)
-  {
 ?>
