@@ -32,6 +32,7 @@
   echo "<td>". $row['restaurant_phone'] . "</td>";
   echo "</tr>";
   }
-  sqlsrv_free_stmt($getResults);
   echo "</table>";
+  sqlsrv_free_stmt($getResults);
+
 ?>
