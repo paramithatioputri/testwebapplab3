@@ -1,5 +1,5 @@
 <?php
-  $serverName = "simplewebtp000000.database.windows.net";
+  $serverName = "simplewebtp047112.database.windows.net";
   $connectionOptions = array(
   "Database" => "simpleweb",
   "Uid" => "simpleweb",
